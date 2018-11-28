@@ -1,6 +1,7 @@
 import java.io.File;
 import java.text.DecimalFormat;
 import java.util.*;
+import java.util.stream.IntStream;
 
 public class clastering {
     private static double rowCount = 0;
@@ -222,9 +223,10 @@ public class clastering {
         System.out.println(dot);
 
         System.out.println("1");
-        double[] res = multiplyMatrixAndRow(new Matrix(multiplyMatrices(transposeMatrix(dot.getAsArr()),
-                        inverse(matrixs.get(0).getAsArr()))),
-                dot);
+//        double[] res = multiplyMatrixAndRow();
+        double[] res = multiply(multiplyMatrices(transposeMatrix(dot.getAsArr()),
+                        inverse(matrixs.get(0).getAsArr())),
+                dot.asArr());
         System.out.println("RES");
         Arrays.stream(res).forEach(System.out::println);
 
@@ -284,6 +286,15 @@ public class clastering {
             arr[i] = summ;
         }
         return arr;
+    }
+
+    public static double[] multiply(double[][] matrix, double[] vector) {
+        return Arrays.stream(matrix)
+                .mapToDouble(row ->
+                        IntStream.range(0, row.length)
+                                .mapToDouble(col -> row[col] * vector[col])
+                                .sum()
+                ).toArray();
     }
 
     public static double[][] multiplyMatrices(double[][] matrix1, double[][] matrix2) {
@@ -417,6 +428,10 @@ class Dot {
 
     public double[][] getAsArr() {
         return new double[][]{{this.x, this.y, this.z, this.q}};
+    }
+
+    public double[] asArr() {
+        return new double[]{this.x, this.y, this.z, this.q};
     }
 
 

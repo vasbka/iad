@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/src/clastering.java" line="158" mnemonic="5" />
+    <bookmark url="file://$PROJECT_DIR$/src/clastering.java" line="197" mnemonic="5" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eea2ff88-da44-42fa-a36a-a874436e594c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/2.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/2/Centroid.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/2/Dot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2/Matrix.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/2/clastering.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/clastering.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/clastering.java" afterDir="false" />
     </list>
@@ -46,12 +46,12 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="33" />
-          <entry key="java" value="13796" />
+          <entry key="java" value="13872" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="13796" />
+          <entry key="JAVA" value="13872" />
           <entry key="PLAIN_TEXT" value="33" />
         </counts>
       </usages-collector>
@@ -83,22 +83,60 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/clastering.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="346">
-              <caret line="223" column="29" selection-start-line="223" selection-start-column="29" selection-end-line="223" selection-end-column="29" />
+            <state relative-caret-position="165">
+              <caret line="226" column="48" lean-forward="true" selection-start-line="226" selection-start-column="48" selection-end-line="226" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#9484#9485#0" expanded="true" />
-                <element signature="e#9508#9509#0" expanded="true" />
-                <element signature="e#10914#10915#0" expanded="true" />
-                <element signature="e#10985#10986#0" expanded="true" />
-                <element signature="e#16549#16550#0" expanded="true" />
-                <element signature="e#16584#16585#0" expanded="true" />
-                <element signature="e#13361#13362#0" expanded="true" />
-                <element signature="e#13391#13392#0" expanded="true" />
-                <element signature="e#13433#13434#0" expanded="true" />
-                <element signature="e#13466#13467#0" expanded="true" />
-                <element signature="e#15848#15849#0" expanded="true" />
-                <element signature="e#15874#15875#0" expanded="true" />
+                <element signature="e#14315#14316#0" expanded="true" />
+                <element signature="e#14339#14340#0" expanded="true" />
+                <element signature="e#14373#14374#0" expanded="true" />
+                <element signature="e#14399#14400#0" expanded="true" />
+                <element signature="e#14427#14428#0" expanded="true" />
+                <element signature="e#14451#14452#0" expanded="true" />
+                <element signature="e#14485#14486#0" expanded="true" />
+                <element signature="e#14511#14512#0" expanded="true" />
+                <element signature="e#14539#14540#0" expanded="true" />
+                <element signature="e#14563#14564#0" expanded="true" />
+                <element signature="e#14597#14598#0" expanded="true" />
+                <element signature="e#14623#14624#0" expanded="true" />
+                <element signature="e#14651#14652#0" expanded="true" />
+                <element signature="e#14675#14676#0" expanded="true" />
+                <element signature="e#14709#14710#0" expanded="true" />
+                <element signature="e#14735#14736#0" expanded="true" />
+                <element signature="e#14910#14911#0" expanded="true" />
+                <element signature="e#14981#14982#0" expanded="true" />
+                <element signature="e#15435#15436#0" expanded="true" />
+                <element signature="e#15502#15503#0" expanded="true" />
+                <element signature="e#15651#15652#0" expanded="true" />
+                <element signature="e#15678#15679#0" expanded="true" />
+                <element signature="e#15721#15722#0" expanded="true" />
+                <element signature="e#15753#15754#0" expanded="true" />
+                <element signature="e#15781#15782#0" expanded="true" />
+                <element signature="e#15805#15806#0" expanded="true" />
+                <element signature="e#15839#15840#0" expanded="true" />
+                <element signature="e#15865#15866#0" expanded="true" />
+                <element signature="e#15893#15894#0" expanded="true" />
+                <element signature="e#15917#15918#0" expanded="true" />
+                <element signature="e#15951#15952#0" expanded="true" />
+                <element signature="e#15977#15978#0" expanded="true" />
+                <element signature="e#16005#16006#0" expanded="true" />
+                <element signature="e#16029#16030#0" expanded="true" />
+                <element signature="e#16063#16064#0" expanded="true" />
+                <element signature="e#16089#16090#0" expanded="true" />
+                <element signature="e#16117#16118#0" expanded="true" />
+                <element signature="e#16141#16142#0" expanded="true" />
+                <element signature="e#16175#16176#0" expanded="true" />
+                <element signature="e#16201#16202#0" expanded="true" />
+                <element signature="e#16236#16237#0" expanded="true" />
+                <element signature="e#16270#16271#0" expanded="true" />
+                <element signature="e#16582#16583#0" expanded="true" />
+                <element signature="e#16622#16623#0" expanded="true" />
+                <element signature="e#16659#16660#0" expanded="true" />
+                <element signature="e#16689#16690#0" expanded="true" />
+                <element signature="e#16738#16739#0" expanded="true" />
+                <element signature="e#16771#16772#0" expanded="true" />
+                <element signature="e#16807#16808#0" expanded="true" />
+                <element signature="e#16833#16834#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -215,7 +253,7 @@
     <property name="Repository.Attach.JavaDocs" value="true" />
     <property name="Repository.Attach.Sources" value="true" />
     <property name="SearchEverywhereHistoryKey" value="matrix&#9;PSI&#9;JAVA://Matrix" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543439410113" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543439727037" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$USER_HOME$/Downloads/ejml-v0.37-libs.zip!/" />
     <property name="project.structure.last.edited" value="Libraries" />
@@ -311,14 +349,14 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32912722" />
       <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.33645833" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39914164" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39895833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32916668" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50053304" side_tool="true" weight="0.4248927" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32916668" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.3280757" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32708332" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -334,6 +372,76 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/clastering.java</url>
+          <line>285</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/clastering.java</url>
+          <line>280</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/clastering.java</url>
+          <line>279</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/clastering.java</url>
+          <line>278</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/clastering.java</url>
+          <line>277</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/clastering.java</url>
+          <line>276</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/clastering.java</url>
+          <line>275</line>
+          <properties />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/clastering.java</url>
+          <line>281</line>
+          <properties />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/clastering.java</url>
+          <line>282</line>
+          <properties />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/clastering.java</url>
+          <line>284</line>
+          <properties />
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/clastering.java</url>
+          <line>287</line>
+          <properties />
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
         <watch expression="100 + x2*100" language="JAVA" />
@@ -443,22 +551,60 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/clastering.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="223" column="29" selection-start-line="223" selection-start-column="29" selection-end-line="223" selection-end-column="29" />
+        <state relative-caret-position="165">
+          <caret line="226" column="48" lean-forward="true" selection-start-line="226" selection-start-column="48" selection-end-line="226" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#9484#9485#0" expanded="true" />
-            <element signature="e#9508#9509#0" expanded="true" />
-            <element signature="e#10914#10915#0" expanded="true" />
-            <element signature="e#10985#10986#0" expanded="true" />
-            <element signature="e#16549#16550#0" expanded="true" />
-            <element signature="e#16584#16585#0" expanded="true" />
-            <element signature="e#13361#13362#0" expanded="true" />
-            <element signature="e#13391#13392#0" expanded="true" />
-            <element signature="e#13433#13434#0" expanded="true" />
-            <element signature="e#13466#13467#0" expanded="true" />
-            <element signature="e#15848#15849#0" expanded="true" />
-            <element signature="e#15874#15875#0" expanded="true" />
+            <element signature="e#14315#14316#0" expanded="true" />
+            <element signature="e#14339#14340#0" expanded="true" />
+            <element signature="e#14373#14374#0" expanded="true" />
+            <element signature="e#14399#14400#0" expanded="true" />
+            <element signature="e#14427#14428#0" expanded="true" />
+            <element signature="e#14451#14452#0" expanded="true" />
+            <element signature="e#14485#14486#0" expanded="true" />
+            <element signature="e#14511#14512#0" expanded="true" />
+            <element signature="e#14539#14540#0" expanded="true" />
+            <element signature="e#14563#14564#0" expanded="true" />
+            <element signature="e#14597#14598#0" expanded="true" />
+            <element signature="e#14623#14624#0" expanded="true" />
+            <element signature="e#14651#14652#0" expanded="true" />
+            <element signature="e#14675#14676#0" expanded="true" />
+            <element signature="e#14709#14710#0" expanded="true" />
+            <element signature="e#14735#14736#0" expanded="true" />
+            <element signature="e#14910#14911#0" expanded="true" />
+            <element signature="e#14981#14982#0" expanded="true" />
+            <element signature="e#15435#15436#0" expanded="true" />
+            <element signature="e#15502#15503#0" expanded="true" />
+            <element signature="e#15651#15652#0" expanded="true" />
+            <element signature="e#15678#15679#0" expanded="true" />
+            <element signature="e#15721#15722#0" expanded="true" />
+            <element signature="e#15753#15754#0" expanded="true" />
+            <element signature="e#15781#15782#0" expanded="true" />
+            <element signature="e#15805#15806#0" expanded="true" />
+            <element signature="e#15839#15840#0" expanded="true" />
+            <element signature="e#15865#15866#0" expanded="true" />
+            <element signature="e#15893#15894#0" expanded="true" />
+            <element signature="e#15917#15918#0" expanded="true" />
+            <element signature="e#15951#15952#0" expanded="true" />
+            <element signature="e#15977#15978#0" expanded="true" />
+            <element signature="e#16005#16006#0" expanded="true" />
+            <element signature="e#16029#16030#0" expanded="true" />
+            <element signature="e#16063#16064#0" expanded="true" />
+            <element signature="e#16089#16090#0" expanded="true" />
+            <element signature="e#16117#16118#0" expanded="true" />
+            <element signature="e#16141#16142#0" expanded="true" />
+            <element signature="e#16175#16176#0" expanded="true" />
+            <element signature="e#16201#16202#0" expanded="true" />
+            <element signature="e#16236#16237#0" expanded="true" />
+            <element signature="e#16270#16271#0" expanded="true" />
+            <element signature="e#16582#16583#0" expanded="true" />
+            <element signature="e#16622#16623#0" expanded="true" />
+            <element signature="e#16659#16660#0" expanded="true" />
+            <element signature="e#16689#16690#0" expanded="true" />
+            <element signature="e#16738#16739#0" expanded="true" />
+            <element signature="e#16771#16772#0" expanded="true" />
+            <element signature="e#16807#16808#0" expanded="true" />
+            <element signature="e#16833#16834#0" expanded="true" />
           </folding>
         </state>
       </provider>
